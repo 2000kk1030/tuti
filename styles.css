@@ -1,0 +1,26 @@
+body		{background-color:#ffffff; font-size:12pt; margin:10 20px;}
+/*
+a:hover		{color:#ff0000; text-decoration:underline; background:#ffcccc;}
+a:active	{color:#00ff00; text-decoration:underline; background:#ccffcc;}
+a:link		{color:#0000ff; text-decoration:underline;}
+a:visited	{color:#800080; text-decoration:underline;}
+*/
+p			{color:#000080;}
+h1			{color:#cc6060; font-size:20pt;}
+h2			{color:#669966; font-size:16pt;}
+address		{text-align:right;}
+table		{font-size:12pt;}
+.red		{color:#cc0066;}
+.left		{text-align:left;}
+.center		{text-align:center;}
+.right		{text-align:right;}
+.bgyellow	{background-color:#f0f080;}
+.bgpink		{background-color:#f080f0;}
+.bggreen	{background-color:#80f080;}
+.bgblue		{background-color:#bbbbff;}
+a {color: #fff;background: #5876a3;padding: 10px 30px;display: inline-block;border-radius: 5px;text-decoration: none;}
+input{color: #fff;background: #5876a3;padding: 10px 30px;display: inline-block;border-radius: 5px;text-decoration: none;}
+input[type="text"]{color: #fff;background: #c0c0c0;padding: 10px 30px;display: inline-block;border-radius: 5px;text-decoration: none;}
+input[type="reset"]{color: #fff;background: #ff8080;padding: 10px 30px;display: inline-block;border-radius: 5px;text-decoration: none;}
+td{text-align: center;}
+
