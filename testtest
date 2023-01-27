@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>DM</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=MS932">
+		<meta http-equiv="Content-Script-Tyoe" content="text/javascript" />
+		<meta http-equiv="Pragma" content="no-cache">
+		<meta http-equiv="Cache-control" content="no-cache">
+		<meta http-equiv="Expires" content="0">
+		<link rel="stylesheet" type="text/css" href="./styles.css">
+
+	</head>
+
+	<body>
+
+		<h1>メッセージ作成</h1>
+		<h2></h2>
+
+		<form action="http://localhost:8080/tuti/Message/DM">
+
+		<table summary="データフォーム">
+		
+		<tr>
+		<h3>タイトルや件名を入力してください。</h3>
+		<input type="text" size="40" style="ime-mode:disable" name="dmmm">
+		<br>
+		<textarea id="example-id" name="dmm" rows="15" cols="50" required=required placeholder=送信したいメッセージの本文を入力してください。></textarea>
+		<br>
+		<input type="submit" value="送信">
+		<td>
+		<br><br>
+		<a href="AddDb.html">追加</a>
+		<a href="Message/Delete">削除</a>	
+		<a href="Message">一覧</a>
+
+		</td>
+
+		</tr>
+
+		<div>現在の文字数</div>
+		<div id="current-length"></div>
+
+		</table>
+
+		</form>
+		
+		<script type="text/javascript" src="./js/textarea.js"></script>
+		
+	</body>
+
+</html>
